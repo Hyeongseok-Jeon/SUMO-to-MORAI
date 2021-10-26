@@ -1,0 +1,2 @@
+sumo2morai_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel -DCMAKE_INSTALL_PREFIX=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/install -G Unix Makefiles
