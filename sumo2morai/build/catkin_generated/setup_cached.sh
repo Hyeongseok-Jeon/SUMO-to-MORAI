@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD='/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build'
-export PYTHONPATH="/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/lib/python2.7/dist-packages:$PYTHONPATH"
