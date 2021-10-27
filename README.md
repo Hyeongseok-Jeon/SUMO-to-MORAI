@@ -16,9 +16,11 @@ Table of Contents
 
 
 ## SUMO-Install
-You need to install following git repositories:
-- [LaneGCN](https://github.com/uber-research/LaneGCN#install-dependancy)
-- [Argoverse API](https://github.com/argoai/argoverse-api#installation)
+```sh
+sudo add-apt-repository ppa:sumo/stable
+sudo apt-get update
+sudo apt-get install sumo sumo-tools sumo-doc
+```
 
 * note: Since the original Argoverse API is modified in this works, please you the argoverse-api included in this repository
 
