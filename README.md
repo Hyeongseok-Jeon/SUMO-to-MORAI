@@ -6,7 +6,7 @@ Traffic flow generated from SUMO simulator is visualized in MORAI Simulator via 
 
 Table of Contents
 =================
-  * [SUMO Install](#SUMO install)
+  * [SUMO Install](#SUMO-install)
   * [Prepare Data](#Prepare-Data)
   * [Training](#Training)
   * [Testing](#testing)
@@ -15,7 +15,7 @@ Table of Contents
 
 
 
-## Install
+## SUMO-Install
 You need to install following git repositories:
 - [LaneGCN](https://github.com/uber-research/LaneGCN#install-dependancy)
 - [Argoverse API](https://github.com/argoai/argoverse-api#installation)
