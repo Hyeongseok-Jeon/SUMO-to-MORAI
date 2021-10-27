@@ -100,3 +100,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sumo2morai_tutorial" TYPE PROGRAM FILES "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/sumo2morai_tutorial/catkin_generated/installspace/talker.py")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sumo2morai_tutorial" TYPE PROGRAM FILES "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/sumo2morai_tutorial/catkin_generated/installspace/test.py")
+endif()
+

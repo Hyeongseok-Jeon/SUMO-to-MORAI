@@ -4,9 +4,7 @@ import os
 import sys
 import optparse
 import rospy
-import roslibpy
-import time
-from sumo2morai_tutorial.msg import NpcGhostCmd
+from morai_msgs.msg import NpcGhostCmd, NpcGhostInfo
 
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
@@ -21,7 +19,6 @@ import traci
 vehicle = _vehicle.VehicleDomain()
 vehicletype = _vehicletype.VehicleTypeDomain()
 
-
 def get_options():
     opt_parser = optparse.OptionParser()
     opt_parser.add_option("--nogui", action="store_true",
@@ -31,35 +28,31 @@ def get_options():
 
 
 def run():
-    client = roslibpy.Ros(host='localhost', port=9090)
-    client.run()
-    talker = roslibpy.Topic(client, '/NpcGhost_Topic', 'sumo2morai_tutorial/msg')
-    '''
-pub_cmd = rospy.Publisher('NpcGhost_Topic', NpcGhostCmd)
-    rospy.init_node('sumo2morai', anonymous=True)
-
-    r = rospy.Rate(10) #10hz
-'''
+    rospy.init_node('test', anonymous=True)
+    ghost_cmd_pub = rospy.Publisher('NpcGhost_Topic',NpcGhostCmd, queue_size=1)
+    print('a')
+    print('b')
     step = 0
-    msg_cmd = NpcGhostCmd()
+    r = rospy.Rate(10) #10hz
 
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
         print(step)
         VehList = vehicle.getIDList()
         num_of_ego = len(VehList)
+        
+        ghost_cmd_msg=NpcGhostCmd()
+        ghost_npc_info=NpcGhostInfo()
+        ghost_npc_info.unique_id =int(VehList[0])
+        ghost_npc_info.name = '2016_Hyundai_Genesis_DH'
+        ghost_npc_info.position.x=vehicle.getPosition3D(VehList[0])[0]
+        ghost_npc_info.position.y=vehicle.getPosition3D(VehList[0])[1]
+        ghost_npc_info.position.z=vehicle.getPosition3D(VehList[0])[2]
+        ghost_npc_info.rpy.z =vehicle.getAngle(VehList[0])
+        ghost_cmd_msg.npc_list.append(ghost_npc_info)
 
+        ghost_cmd_pub.publish(ghost_cmd_msg)
 
-        msg_cmd.header.seq = 0
-        msg_cmd.header.stamp = time.time()
-        msg_cmd.header.frame_id = 'test'
-
-        msg_cmd.npc_list.append(int(VehList[0]))
-        msg_cmd.npc_list.append('2016_Hyundai_Genesis_DH')
-        msg_cmd.npc_list.append([vehicle.getPosition3D(VehList[0])[0], vehicle.getPosition3D(VehList[0])[1], vehicle.getPosition3D(VehList[0])[2]])
-        msg_cmd.npc_list.append([0, 0, vehicle.getAngle(VehList[0])])
-
-        talker.publish(msg_cmd)
         r.sleep
         # camera_index =
         #for i in range(len(VehList)):

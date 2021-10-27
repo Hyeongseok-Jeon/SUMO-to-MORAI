@@ -136,7 +136,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/gtest/cmake_install.cmake")
-  include("/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/sumo2morai_tutorial/cmake_install.cmake")
+  include("/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs/cmake_install.cmake")
+  include("/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/cmake_install.cmake")
 
 endif()
 
