@@ -45,11 +45,8 @@ More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Ins
 This repository is tested only for the openDRIVE based map format.
 In order to get *.xord files for the map, please contect [MORAI](https://www.morai.ai/)
 
-If you already have *.xord files, you need to move *.xord files to 
+If you already have *.xord files, you need to move *.xord files to *sumo2morai/sumo/xords*
 
-```sh
-sumo2morai/sumo/xords
-```
 
 Then *.xord file has to be converted to SUMO net file with following command
 
@@ -64,8 +61,9 @@ python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/*.net.xml -e
 ```
 More detail information on the random trip of SUMO simulator, please refer [SUMO-randomTrips.py](https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy)
 
-Finally, in sumo2morai/sumo/sumocfgs/, please make '*.sumocfg' file with text editor.
+Finally, in *sumo2morai/sumo/sumocfgs/*, please make '*.sumocfg' file with text editor.
 
+```
 <configuration>
 
 <input>
@@ -78,7 +76,7 @@ Finally, in sumo2morai/sumo/sumocfgs/, please make '*.sumocfg' file with text ed
 </time>
 
 </configuration>
-
+```
 
 
 
