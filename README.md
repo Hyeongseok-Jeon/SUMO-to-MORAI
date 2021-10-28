@@ -51,7 +51,18 @@ If you already have *.xord files, you need to move *.xord files to
 sumo2morai/sumo/xords
 ```
 
+Then *.xord file has to be converted to SUMO net file with following command
 
+```sh
+netconvert --opendrive sumo2morai/sumo/xords/*.xord -o sumo2morai/sumo/nets/*.net.xml
+```
+
+Using the SUMO net file, random trips can be generated in route file as belows.
+
+```sh
+python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/KAIST_Munji_Campus.net.xml -e 3600 -r sumo2morai/sumo/routes/KAIST_Munji_Campus.rou.xml
+```
+More detail information on the random trip of SUMO simulator, please refer [SUMO-randomTrips.py](https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy)
 ## Training
 ### Training with single GPU
 ```sh
