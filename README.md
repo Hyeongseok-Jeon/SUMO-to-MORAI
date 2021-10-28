@@ -9,8 +9,8 @@ Table of Contents
 =================
   * [SUMO Install](#SUMO-install)
   * [ROS Install](#ROS-install)
-  * [SUMO simulation configuration](#SUMO-simulation-configuration)
-  * [Testing](#testing)
+  * [SUMO simulation configuration](#Building-ROS-Package)
+  * [Building ROS Package](#testing)
   * [Licence](#licence)
   * [Citation](#citation)
 
@@ -80,12 +80,8 @@ Finally, in *sumo2morai/sumo/sumocfgs/*, please make *test_map.sumocfg* file wit
 ```
 
 
-
-## Training
-### Training with single GPU
-```sh
-python train.py
-```
+#Building-ROS-Package
+For specifying the map and trips generated in [SUMO simulation configuration](#Building-ROS-Package), find *test.py* in *src/npc_ghost_test/scrips*
 
 ### Training with multigpus using horovod
 ```sh
