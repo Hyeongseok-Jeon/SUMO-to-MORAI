@@ -39,7 +39,7 @@ sudo rosdep init
 rosdep update
 ```
 
-SUMO Version 1.10.0 is used
+More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
 ## Prepare Data
 In this repository, small amount of the raw data and corresponding post-processed sample of Argoverse Motion Forecasting dataset is included.
