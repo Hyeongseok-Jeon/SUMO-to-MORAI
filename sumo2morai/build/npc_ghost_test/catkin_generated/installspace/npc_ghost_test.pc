@@ -1,8 +1,0 @@
-prefix=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/install
-
-Name: npc_ghost_test
-Description: Description of npc_ghost_test
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,2 +1,0 @@
-morai_msgs:npc_ghost_test
--DCATKIN_DEVEL_PREFIX=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel -DCMAKE_INSTALL_PREFIX=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/install -G Unix Makefiles
