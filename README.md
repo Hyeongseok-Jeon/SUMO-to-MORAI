@@ -113,4 +113,9 @@ cd <repository_root>/sumo2morai
 source devel/setup.bash
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-
+4. In *new terminal*,
+```
+cd <repository_root>/sumo2morai
+source devel/setup.bash
+rosrun npc_ghost_test test.py
+```
