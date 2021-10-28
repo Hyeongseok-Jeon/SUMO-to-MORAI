@@ -86,7 +86,7 @@ find Line 123 in *test.py* in *src/npc_ghost_test/scrips* which is follows.
 
 ```sh
 traci.start([sumoBinary, "-c", "sumo/sumocfgs/VenturaFRW.sumocfg","--step-length", "0.01"])
-```sh
+```
 
 
 ### Training with multigpus using horovod
