@@ -9,8 +9,8 @@ Table of Contents
 =================
   * [SUMO Install](#SUMO-install)
   * [ROS Install](#ROS-install)
-  * [SUMO simulation configuration](#Building-ROS-Package)
-  * [Building ROS Package](#testing)
+  * [SUMO simulation configuration](#SUMO-simulation-configuration)
+  * [Building ROS Package](#Building-ROS-Package)
   * [Licence](#licence)
   * [Citation](#citation)
 
