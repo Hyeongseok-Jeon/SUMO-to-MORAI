@@ -9,7 +9,7 @@ Table of Contents
 =================
   * [SUMO Install](#SUMO-install)
   * [ROS Install](#ROS-install)
-  * [Training](#Training)
+  * [Map Conversion](#Map-preparation)
   * [Testing](#testing)
   * [Licence](#licence)
   * [Citation](#citation)
@@ -41,14 +41,16 @@ rosdep update
 
 More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
-## Prepare Data
-In this repository, small amount of the raw data and corresponding post-processed sample of Argoverse Motion Forecasting dataset is included.
-If you want to use full data, please download from [Argoverse](https://www.argoverse.org/tasks.html#forecasting-link) official website
+## Map-preparation
+This repository is tested only for the openDRIVE based map format.
+In order to get *.xord files for the map, please contect [MORAI](https://www.morai.ai/)
 
-Since the PfP requires future trajectory of the ego vehicle, the test set is not used.
+If you already have *.xord files, you need to move *.xord files to 
 
-[Confidential] Because of the internal issue, the source code for data processing is blocked.
-For academical use, please contact "Anonymous"
+```sh
+sumo2morai/sumo/xords
+```
+
 
 ## Training
 ### Training with single GPU
