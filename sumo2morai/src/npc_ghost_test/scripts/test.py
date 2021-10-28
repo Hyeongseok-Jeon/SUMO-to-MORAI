@@ -5,6 +5,7 @@ import os
 import sys
 import optparse
 import rospy
+import numpy as np
 
 from geometry_msgs.msg import PoseStamped
 from math import pi
@@ -44,10 +45,20 @@ def run():
             ghost_npc_info=NpcGhostInfo()
             ghost_npc_info.unique_id =int(VehList[i])
             ghost_npc_info.name ='2016_Hyundai_Ioniq'
-            ghost_npc_info.position.x=vehicle.getPosition3D(VehList[i])[0]
-            ghost_npc_info.position.y=vehicle.getPosition3D(VehList[i])[1]
-            ghost_npc_info.position.z=vehicle.getPosition3D(VehList[i])[2]
-            ghost_npc_info.rpy.z =90-vehicle.getAngle(VehList[i])
+            veh_length = 3.7
+            x = vehicle.getPosition3D(VehList[i])[0]
+            y = vehicle.getPosition3D(VehList[i])[1] - 59
+            z = vehicle.getPosition3D(VehList[i])[2]
+            yaw = 90-vehicle.getAngle(VehList[i])
+
+            x_morai = x - veh_length * np.cos(np.deg2rad(yaw))
+            y_morai = y - veh_length * np.sin(np.deg2rad(yaw))
+            ghost_npc_info.position.x=x_morai
+            ghost_npc_info.position.y=y_morai
+            ghost_npc_info.position.z=z
+            ghost_npc_info.rpy.z = yaw
+
+            
             ghost_cmd_msg.npc_list.append(ghost_npc_info)
         
         ghost_cmd_pub.publish(ghost_cmd_msg)
@@ -120,7 +131,7 @@ if __name__ == '__main__':
         sumoBinary = checkBinary('sumo-gui')
 
     # traci starts sumo as a subprocess and then this script connects and runs
-    traci.start([sumoBinary, "-c", "sumo/sumocfgs/jc_1.sumocfg",
+    traci.start([sumoBinary, "-c", "sumo/sumocfgs/suburb_02.sumocfg",
                  "--step-length", "0.01"])
     try:
         run()
