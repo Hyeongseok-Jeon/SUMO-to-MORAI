@@ -80,7 +80,7 @@ Finally, in *sumo2morai/sumo/sumocfgs/*, please make *test_map.sumocfg* file wit
 ```
 
 ## Building-ROS-Package
-For specifying the map and trips generated in [SUMO simulation configuration](#Building-ROS-Package), find *test.py* in *src/npc_ghost_test/scrips*
+For specifying the map and trips generated in [SUMO simulation configuration](#SUMO-simulation-configuration), find *test.py* in *src/npc_ghost_test/scrips*
 
 ### Training with multigpus using horovod
 ```sh
