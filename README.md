@@ -58,11 +58,11 @@ netconvert --opendrive sumo2morai/sumo/xords/test_map.xord -o sumo2morai/sumo/ne
 Using the SUMO net file, random trips can be generated in route file as belows.
 
 ```sh
-python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/*.net.xml -e 3600 -r sumo2morai/sumo/routes/*.rou.xml
+python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/test_map.net.xml -e 3600 -r sumo2morai/sumo/routes/test_map.rou.xml
 ```
 More detail information on the random trip of SUMO simulator, please refer [SUMO-randomTrips.py](https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy)
 
-Finally, in *sumo2morai/sumo/sumocfgs/*, please make '*.sumocfg' file with text editor.
+Finally, in *sumo2morai/sumo/sumocfgs/*, please make *test_map.sumocfg* file with text editor.
 
 ```
 <configuration>
