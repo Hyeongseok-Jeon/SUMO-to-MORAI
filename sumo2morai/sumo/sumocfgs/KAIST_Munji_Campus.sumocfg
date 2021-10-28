@@ -1,8 +1,8 @@
 <configuration>
 
 <input>
-<net-file value="../nets/VenturaFRW.net.xml"/>
-<route-files value="../routes/VenturaFRW.rou.xml"/>
+<net-file value="../nets/KAIST_Munji_Campus.net.xml"/>
+<route-files value="../routes/KAIST_Munji_Campus.rou.xml"/>
 </input>
 <time>
 <begin value="0"/>

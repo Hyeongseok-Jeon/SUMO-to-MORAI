@@ -68,8 +68,8 @@ Finally, in *sumo2morai/sumo/sumocfgs/*, please make *test_map.sumocfg* file wit
 <configuration>
 
 <input>
-<net-file value="../nets/*.net.xml"/>
-<route-files value="../routes/*.rou.xml"/>
+<net-file value="../nets/test_map.net.xml"/>
+<route-files value="../routes/test_map.rou.xml"/>
 </input>
 <time>
 <begin value="0"/>
