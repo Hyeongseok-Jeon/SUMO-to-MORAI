@@ -65,7 +65,7 @@ python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/*.net.xml -e
 More detail information on the random trip of SUMO simulator, please refer [SUMO-randomTrips.py](https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy)
 
 Finally, in sumo2morai/sumo/sumocfgs/, please make '*.sumocfg' file with text editor.
-------------
+
 <configuration>
 
 <input>
@@ -78,7 +78,7 @@ Finally, in sumo2morai/sumo/sumocfgs/, please make '*.sumocfg' file with text ed
 </time>
 
 </configuration>
-------------
+
 
 
 
