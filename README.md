@@ -43,7 +43,7 @@ More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Ins
 
 ## SUMO-simulation-configuration
 This repository is tested only for the openDRIVE based map format.
-In order to get <map-name>.xord files for the map, please contect [MORAI](https://www.morai.ai/)
+In order to get [test].xord files for the map, please contect [MORAI](https://www.morai.ai/)
 
 If you already have *.xord files, you need to move *.xord files to *sumo2morai/sumo/xords*
 
