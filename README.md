@@ -94,6 +94,12 @@ you need to modify above command with your custom map name as
 traci.start([sumoBinary, "-c", "sumo/sumocfgs/KAIST_Munji_Campus.sumocfg","--step-length", "0.01"])
 ```
 
+
+In *sumo2morai/*, 
+```sh
+catkin_make
+```
+
 ### Training with multigpus using horovod
 ```sh
 # single node with 4 gpus
