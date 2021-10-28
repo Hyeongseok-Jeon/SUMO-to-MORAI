@@ -113,9 +113,12 @@ cd <repository_root>/sumo2morai
 source devel/setup.bash
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-4. In *new terminal*,
+4. In MORAI simulator, *PlayMode -> Ghost -> NPC Ghost Mode -> Apply*
+5. In *new terminal*,
 ```
 cd <repository_root>/sumo2morai
 source devel/setup.bash
 rosrun npc_ghost_test test.py
 ```
+6. In SUMO simulator, make *Delay(ms)* as 1000
+7. run the SUMO simulator
