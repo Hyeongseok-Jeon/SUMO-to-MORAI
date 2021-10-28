@@ -9,7 +9,7 @@ Table of Contents
 =================
   * [SUMO Install](#SUMO-install)
   * [ROS Install](#ROS-install)
-  * [Map Conversion](#Map-preparation)
+  * [SUMO simulation configuration](#SUMO-simulation-configuration)
   * [Testing](#testing)
   * [Licence](#licence)
   * [Citation](#citation)
@@ -41,7 +41,7 @@ rosdep update
 
 More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Installation/Ubuntu)
 
-## Map-preparation
+## SUMO-simulation-configuration
 This repository is tested only for the openDRIVE based map format.
 In order to get *.xord files for the map, please contect [MORAI](https://www.morai.ai/)
 
@@ -60,9 +60,28 @@ netconvert --opendrive sumo2morai/sumo/xords/*.xord -o sumo2morai/sumo/nets/*.ne
 Using the SUMO net file, random trips can be generated in route file as belows.
 
 ```sh
-python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/KAIST_Munji_Campus.net.xml -e 3600 -r sumo2morai/sumo/routes/KAIST_Munji_Campus.rou.xml
+python /usr/share/sumo/tools/randomTrips.py -n sumo2morai/sumo/nets/*.net.xml -e 3600 -r sumo2morai/sumo/routes/*.rou.xml
 ```
 More detail information on the random trip of SUMO simulator, please refer [SUMO-randomTrips.py](https://sumo.dlr.de/docs/Tools/Trip.html#randomtripspy)
+
+Finally, in sumo2morai/sumo/sumocfgs/, please make '*.sumocfg' file with text editor.
+------------
+<configuration>
+
+<input>
+<net-file value="../nets/*.net.xml"/>
+<route-files value="../routes/*.rou.xml"/>
+</input>
+<time>
+<begin value="0"/>
+<end value="3600"/>
+</time>
+
+</configuration>
+------------
+
+
+
 ## Training
 ### Training with single GPU
 ```sh
