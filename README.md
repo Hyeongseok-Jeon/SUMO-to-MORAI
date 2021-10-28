@@ -85,9 +85,14 @@ For specifying the map and trips generated in [SUMO simulation configuration](#S
 find Line 123 in *test.py* in *src/npc_ghost_test/scrips* which is follows.
 
 ```sh
-traci.start([sumoBinary, "-c", "sumo/sumocfgs/VenturaFRW.sumocfg","--step-length", "0.01"])
+traci.start([sumoBinary, "-c", "sumo/sumocfgs/test_map.sumocfg","--step-length", "0.01"])
 ```
 
+you need to modify above command with your custom map name as
+
+```sh
+traci.start([sumoBinary, "-c", "sumo/sumocfgs/KAIST_Munji_Campus.sumocfg","--step-length", "0.01"])
+```
 
 ### Training with multigpus using horovod
 ```sh
