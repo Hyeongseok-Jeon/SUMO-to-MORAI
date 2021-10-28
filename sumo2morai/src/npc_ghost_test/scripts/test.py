@@ -44,8 +44,8 @@ def run():
             ghost_npc_info=NpcGhostInfo()
             ghost_npc_info.unique_id =int(VehList[i])
             ghost_npc_info.name ='2016_Hyundai_Ioniq'
-            ghost_npc_info.position.x=vehicle.getPosition3D(VehList[i])[0]+137
-            ghost_npc_info.position.y=vehicle.getPosition3D(VehList[i])[1]+241
+            ghost_npc_info.position.x=vehicle.getPosition3D(VehList[i])[0]
+            ghost_npc_info.position.y=vehicle.getPosition3D(VehList[i])[1]
             ghost_npc_info.position.z=vehicle.getPosition3D(VehList[i])[2]
             ghost_npc_info.rpy.z =90-vehicle.getAngle(VehList[i])
             ghost_cmd_msg.npc_list.append(ghost_npc_info)
@@ -120,7 +120,7 @@ if __name__ == '__main__':
         sumoBinary = checkBinary('sumo-gui')
 
     # traci starts sumo as a subprocess and then this script connects and runs
-    traci.start([sumoBinary, "-c", "sumo/sumocfgs/VenturaFRW.sumocfg",
+    traci.start([sumoBinary, "-c", "sumo/sumocfgs/jc_1.sumocfg",
                  "--step-length", "0.01"])
     try:
         run()

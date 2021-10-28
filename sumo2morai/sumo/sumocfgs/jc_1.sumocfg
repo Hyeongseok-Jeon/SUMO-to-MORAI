@@ -1,0 +1,12 @@
+<configuration>
+
+<input>
+<net-file value="../nets/jc_1.net.xml"/>
+<route-files value="../routes/jc_1.rou.xml"/>
+</input>
+<time>
+<begin value="0"/>
+<end value="3600"/>
+</time>
+
+</configuration>

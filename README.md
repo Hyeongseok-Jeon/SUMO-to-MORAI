@@ -46,15 +46,15 @@ More detailed description, please refer to [ROS](http://wiki.ros.org/melodic/Ins
 ## SUMO-simulation-configuration
 This repository is tested only for the openDRIVE based map format.
 
-In order to get *test_map*.xord files for the map, please contect [MORAI](https://www.morai.ai/)
+In order to get *test_map*.xodr files for the map, please contect [MORAI](https://www.morai.ai/)
 
-If you already have *test_map*.xord files, you need to move *test_map*.xord files to *sumo2morai/sumo/xords*
+If you already have *test_map*.xodr files, you need to move *test_map*.xodr files to *sumo2morai/sumo/xodrs*
 
 
-Then *test_map*.xord file has to be converted to SUMO net file with following command
+Then *test_map*.xodr file has to be converted to SUMO net file with following command
 
 ```sh
-netconvert --opendrive sumo2morai/sumo/xords/test_map.xord -o sumo2morai/sumo/nets/test_map.net.xml
+netconvert --opendrive sumo2morai/sumo/xodrs/test_map.xodr -o sumo2morai/sumo/nets/test_map.net.xml
 ```
 
 Using the SUMO net file, random trips can be generated in route file as belows.

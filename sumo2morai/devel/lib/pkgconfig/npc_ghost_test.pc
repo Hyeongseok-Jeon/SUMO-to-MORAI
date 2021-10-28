@@ -1,0 +1,8 @@
+prefix=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel
+
+Name: npc_ghost_test
+Description: Description of npc_ghost_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
