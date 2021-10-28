@@ -67,14 +67,14 @@ set(npc_ghost_test_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(npc_ghost_test_SOURCE_PREFIX /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test)
-  set(npc_ghost_test_DEVEL_PREFIX /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel)
+  set(npc_ghost_test_SOURCE_PREFIX /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test)
+  set(npc_ghost_test_DEVEL_PREFIX /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel)
   set(npc_ghost_test_INSTALL_PREFIX "")
   set(npc_ghost_test_PREFIX ${npc_ghost_test_DEVEL_PREFIX})
 else()
   set(npc_ghost_test_SOURCE_PREFIX "")
   set(npc_ghost_test_DEVEL_PREFIX "")
-  set(npc_ghost_test_INSTALL_PREFIX /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/install)
+  set(npc_ghost_test_INSTALL_PREFIX /home/user/Desktop/SUMO-to-MORAI/sumo2morai/install)
   set(npc_ghost_test_PREFIX ${npc_ghost_test_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/install/lib;/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/user/Desktop/SUMO-to-MORAI/sumo2morai/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

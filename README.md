@@ -11,7 +11,7 @@ Table of Contents
   * [ROS Install](#ROS-install)
   * [SUMO simulation configuration](#SUMO-simulation-configuration)
   * [Building ROS Package](#Building-ROS-Package)
-  * [Licence](#licence)
+  * [Running the Simulations](#Running-the-Simulations)
   * [Citation](#citation)
 
 
@@ -98,16 +98,19 @@ traci.start([sumoBinary, "-c", "sumo/sumocfgs/KAIST_Munji_Campus.sumocfg","--ste
 In *sumo2morai/*, 
 ```sh
 catkin_make
+source devel/setup.bash
 ```
 
-### Training with multigpus using horovod
-```sh
-# single node with 4 gpus
-horovodrun -np 4 -H localhost:4 python train.py
+## Running-the-Simulations
+1. Run MORAI Simulator and select *test_map*
+2. In *new terminal*
 ```
-
-## Testing
-
-![img](misc/fig4.png)
-
+roscore
+```
+3. In *new terminal*,
+```
+cd <repository_root>/sumo2morai
+source devel/setup.bash
+roslaunch rosbridge_server rosbridge_websocket.launch
+```
 

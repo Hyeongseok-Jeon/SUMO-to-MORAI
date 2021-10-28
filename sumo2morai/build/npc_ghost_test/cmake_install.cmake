@@ -1,8 +1,8 @@
-# Install script for directory: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test
+# Install script for directory: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/install")
+  set(CMAKE_INSTALL_PREFIX "/home/user/Desktop/SUMO-to-MORAI/sumo2morai/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_test.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_test.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/npc_ghost_test/cmake" TYPE FILE FILES
-    "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_testConfig.cmake"
-    "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_testConfig-version.cmake"
+    "/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_testConfig.cmake"
+    "/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/npc_ghost_test/catkin_generated/installspace/npc_ghost_testConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/npc_ghost_test" TYPE FILE FILES "/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/npc_ghost_test" TYPE FILE FILES "/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/npc_ghost_test/package.xml")
 endif()
 

@@ -53,581 +53,581 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jhs/.local/lib/python3.6/site-packages/cmake/data/bin/cmake
+CMAKE_COMMAND = /home/user/.local/lib/python3.6/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /home/jhs/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E rm -f
+RM = /home/user/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src
+CMAKE_SOURCE_DIR = /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build
+CMAKE_BINARY_DIR = /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build
 
 # Utility rule file for morai_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/progress.make
 
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h
-morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h
+morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h
 
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from morai_msgs/EgoVehicleStatus.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from morai_msgs/RadarTrack.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from morai_msgs/RadarTrack.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from morai_msgs/ObjectStatus.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from morai_msgs/VehicleCollision.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from morai_msgs/NpcGhostCmd.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostCmd.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntscnTL.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from morai_msgs/IntscnTL.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntscnTL.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollisionData.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from morai_msgs/VehicleCollisionData.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollisionData.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SaveSensorData.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from morai_msgs/SaveSensorData.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SaveSensorData.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SetTrafficLight.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from morai_msgs/SetTrafficLight.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SetTrafficLight.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from morai_msgs/SyncModeResultResponse.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeAddObj.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from morai_msgs/SyncModeAddObj.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeAddObj.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from morai_msgs/MoraiSimProcHandle.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GetTrafficLightStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from morai_msgs/GetTrafficLightStatus.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GetTrafficLightStatus.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from morai_msgs/NpcGhostInfo.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from morai_msgs/MoraiSimProcHandle.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from morai_msgs/MapSpecIndex.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from morai_msgs/SyncModeResultResponse.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from morai_msgs/SyncModeCmdResponse.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating C++ code from morai_msgs/MoraiTLInfo.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GPSMessage.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from morai_msgs/GPSMessage.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GPSMessage.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating C++ code from morai_msgs/MoraiSrvResponse.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from morai_msgs/VehicleSpec.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GPSMessage.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating C++ code from morai_msgs/GPSMessage.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GPSMessage.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from morai_msgs/MoraiTLInfo.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating C++ code from morai_msgs/SyncModeInfo.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeInfo.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CollisionData.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from morai_msgs/CollisionData.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CollisionData.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating C++ code from morai_msgs/WaitForTickResponse.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeAddObj.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from morai_msgs/SyncModeAddObj.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeAddObj.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating C++ code from morai_msgs/SyncModeCmdResponse.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from morai_msgs/NpcGhostCmd.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostCmd.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating C++ code from morai_msgs/MoraiSimProcStatus.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcStatus.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeRemoveObj.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from morai_msgs/SyncModeRemoveObj.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeRemoveObj.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating C++ code from morai_msgs/Lamps.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from morai_msgs/VehicleSpecIndex.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SensorPosControl.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating C++ code from morai_msgs/SensorPosControl.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SensorPosControl.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from morai_msgs/IntersectionStatus.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionStatus.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating C++ code from morai_msgs/MapSpec.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from morai_msgs/SyncModeScenarioLoad.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating C++ code from morai_msgs/VehicleSpec.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/TrafficLight.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from morai_msgs/TrafficLight.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/TrafficLight.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntscnTL.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating C++ code from morai_msgs/IntscnTL.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntscnTL.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from morai_msgs/ScenarioLoad.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating C++ code from morai_msgs/SyncModeCmd.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SensorPosControl.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from morai_msgs/SensorPosControl.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SensorPosControl.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating C++ code from morai_msgs/MoraiTLIndex.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from morai_msgs/MapSpec.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CollisionData.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating C++ code from morai_msgs/CollisionData.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CollisionData.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatusList.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from morai_msgs/ObjectStatusList.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatusList.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeRemoveObj.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating C++ code from morai_msgs/SyncModeRemoveObj.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeRemoveObj.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SetTrafficLight.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from morai_msgs/SetTrafficLight.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SetTrafficLight.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionControl.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating C++ code from morai_msgs/IntersectionControl.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionControl.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from morai_msgs/SyncModeInfo.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeInfo.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating C++ code from morai_msgs/SyncModeSetGear.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from morai_msgs/SyncModeCmd.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating C++ code from morai_msgs/EventInfo.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MultiEgoSetting.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from morai_msgs/MultiEgoSetting.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MultiEgoSetting.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating C++ code from morai_msgs/SyncModeCtrlCmd.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTracks.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from morai_msgs/RadarTracks.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTracks.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ERP42Info.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating C++ code from morai_msgs/ERP42Info.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ERP42Info.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from morai_msgs/WaitForTick.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from morai_msgs/IntersectionStatus.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionStatus.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionControl.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from morai_msgs/IntersectionControl.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/IntersectionControl.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from morai_msgs/VehicleSpecIndex.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GetTrafficLightStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from morai_msgs/GetTrafficLightStatus.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GetTrafficLightStatus.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/TrafficLight.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating C++ code from morai_msgs/TrafficLight.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/TrafficLight.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from morai_msgs/MoraiTLIndex.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating C++ code from morai_msgs/CtrlCmd.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ReplayInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from morai_msgs/ReplayInfo.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ReplayInfo.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating C++ code from morai_msgs/ScenarioLoad.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GhostMessage.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from morai_msgs/GhostMessage.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GhostMessage.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SaveSensorData.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating C++ code from morai_msgs/SaveSensorData.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SaveSensorData.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from morai_msgs/ObjectStatus.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GhostMessage.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating C++ code from morai_msgs/GhostMessage.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/GhostMessage.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from morai_msgs/MoraiSrvResponse.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating C++ code from morai_msgs/VehicleCollision.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ERP42Info.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from morai_msgs/ERP42Info.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ERP42Info.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating C++ code from morai_msgs/SyncModeScenarioLoad.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from morai_msgs/SyncModeCtrlCmd.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTracks.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTrack.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/geometry_msgs/msg/Point.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating C++ code from morai_msgs/RadarTracks.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/RadarTracks.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating C++ code from morai_msgs/CtrlCmd.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ReplayInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Quaternion.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating C++ code from morai_msgs/ReplayInfo.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ReplayInfo.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from morai_msgs/Lamps.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MultiEgoSetting.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating C++ code from morai_msgs/MultiEgoSetting.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MultiEgoSetting.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating C++ code from morai_msgs/EventInfo.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating C++ code from morai_msgs/MapSpecIndex.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from morai_msgs/SyncModeSetGear.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating C++ code from morai_msgs/EgoVehicleStatus.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from morai_msgs/MoraiSimProcStatus.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcStatus.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from morai_msgs/NpcGhostInfo.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/NpcGhostInfo.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from morai_msgs/WaitForTickResponse.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating C++ code from morai_msgs/WaitForTick.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollisionData.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollision.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h: /opt/ros/melodic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from morai_msgs/VehicleCollisionData.msg"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleCollisionData.msg -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatusList.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h: /opt/ros/melodic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating C++ code from morai_msgs/ObjectStatusList.msg"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ObjectStatusList.msg -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiVehicleSpecSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating C++ code from morai_msgs/MoraiVehicleSpecSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiVehicleSpecSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCtrlCmdSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating C++ code from morai_msgs/MoraiSyncModeCtrlCmdSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCtrlCmdSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSLSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating C++ code from morai_msgs/MoraiSyncModeSLSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSLSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSetGearSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating C++ code from morai_msgs/MoraiSyncModeSetGearSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSetGearSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSimpProcSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from morai_msgs/MoraiSimpProcSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSimpProcSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiEventCmdSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating C++ code from morai_msgs/MoraiEventCmdSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiEventCmdSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiScenarioLoadSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating C++ code from morai_msgs/MoraiScenarioLoadSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiScenarioLoadSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiScenarioLoadSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/ScenarioLoad.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating C++ code from morai_msgs/MoraiScenarioLoadSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiScenarioLoadSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiEventCmdSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EventInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/Lamps.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating C++ code from morai_msgs/MoraiEventCmdSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiEventCmdSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCmdSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating C++ code from morai_msgs/MoraiSyncModeCmdSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCmdSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiWaitForTickSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from morai_msgs/MoraiWaitForTickSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiWaitForTickSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSimpProcSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSrvResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiSimProcHandle.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating C++ code from morai_msgs/MoraiSimpProcSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSimpProcSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSetGearSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeSetGear.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from morai_msgs/MoraiSyncModeSetGearSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSetGearSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiWaitForTickSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTick.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/WaitForTickResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/EgoVehicleStatus.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating C++ code from morai_msgs/MoraiWaitForTickSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiWaitForTickSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCmdSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCmdResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating C++ code from morai_msgs/MoraiSyncModeCmdSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCmdSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiTLInfoSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating C++ code from morai_msgs/MoraiTLInfoSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiTLInfoSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCtrlCmdSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/CtrlCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeCtrlCmd.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating C++ code from morai_msgs/MoraiSyncModeCtrlCmdSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeCtrlCmdSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiMapSpecSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating C++ code from morai_msgs/MoraiMapSpecSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiMapSpecSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiMapSpecSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpecIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MapSpec.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating C++ code from morai_msgs/MoraiMapSpecSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiMapSpecSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiVehicleSpecSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpec.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/VehicleSpecIndex.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/geometry_msgs/msg/Vector3.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating C++ code from morai_msgs/MoraiVehicleSpecSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiVehicleSpecSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiTLInfoSrv.srv
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLInfo.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/MoraiTLIndex.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/std_msgs/msg/Header.msg
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
-/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from morai_msgs/MoraiTLInfoSrv.srv"
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiTLInfoSrv.srv -Imorai_msgs:/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSLSrv.srv
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeScenarioLoad.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg/SyncModeResultResponse.msg
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating C++ code from morai_msgs/MoraiSyncModeSLSrv.srv"
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs && /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/srv/MoraiSyncModeSLSrv.srv -Imorai_msgs:/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs/msg -Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p morai_msgs -o /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs -e /opt/ros/melodic/share/gencpp/cmake/..
 
 morai_msgs_generate_messages_cpp: morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h
-morai_msgs_generate_messages_cpp: /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTrack.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatus.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostCmd.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollisionData.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SetTrafficLight.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeAddObj.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GetTrafficLightStatus.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcHandle.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeResultResponse.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfo.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSrvResponse.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GPSMessage.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeInfo.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTickResponse.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmdResponse.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimProcStatus.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/Lamps.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SensorPosControl.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpec.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpec.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntscnTL.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCmd.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLIndex.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CollisionData.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeRemoveObj.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionControl.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeSetGear.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EventInfo.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeCtrlCmd.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ERP42Info.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/IntersectionStatus.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleSpecIndex.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/TrafficLight.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/CtrlCmd.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ScenarioLoad.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SaveSensorData.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/GhostMessage.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/VehicleCollision.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/SyncModeScenarioLoad.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/RadarTracks.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ReplayInfo.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MultiEgoSetting.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MapSpecIndex.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/EgoVehicleStatus.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/NpcGhostInfo.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/WaitForTick.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/ObjectStatusList.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCtrlCmdSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSetGearSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiEventCmdSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiScenarioLoadSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeCmdSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSimpProcSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiWaitForTickSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiTLInfoSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiMapSpecSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiVehicleSpecSrv.h
+morai_msgs_generate_messages_cpp: /home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/include/morai_msgs/MoraiSyncModeSLSrv.h
 morai_msgs_generate_messages_cpp: morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : morai_msgs_generate_messages_cpp
@@ -638,10 +638,10 @@ morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/build: morai_msgs_gen
 .PHONY : morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/build
 
 morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/clean:
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs && $(CMAKE_COMMAND) -P CMakeFiles/morai_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs && $(CMAKE_COMMAND) -P CMakeFiles/morai_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/clean
 
 morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/depend:
-	cd /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs /home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src /home/user/Desktop/SUMO-to-MORAI/sumo2morai/src/morai_msgs /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs /home/user/Desktop/SUMO-to-MORAI/sumo2morai/build/morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : morai_msgs/CMakeFiles/morai_msgs_generate_messages_cpp.dir/depend
 

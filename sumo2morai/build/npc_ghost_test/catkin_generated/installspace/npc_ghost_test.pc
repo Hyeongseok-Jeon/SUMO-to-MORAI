@@ -1,4 +1,4 @@
-prefix=/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/install
+prefix=/home/user/Desktop/SUMO-to-MORAI/sumo2morai/install
 
 Name: npc_ghost_test
 Description: Description of npc_ghost_test

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
-export PKG_CONFIG_PATH='/opt/ros/melodic/lib/pkgconfig'
-export PWD='/home/jhs/Desktop/SUMO-to-MORAI/sumo2morai/build'
-export PYTHONPATH='/opt/ros/melodic/lib/python2.7/dist-packages'
+export CMAKE_PREFIX_PATH="/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/user/Desktop/SUMO-to-MORAI/sumo2morai/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/user/Desktop/SUMO-to-MORAI/sumo2morai/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/user/Desktop/SUMO-to-MORAI/sumo2morai/src:$ROS_PACKAGE_PATH"
