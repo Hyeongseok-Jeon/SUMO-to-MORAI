@@ -1,13 +1,14 @@
 # SUMO-to-MORAI
 
-This reposity is to interlock SUMO simulator to MORAI simulator
+This repository is to interlock SUMO simulator to MORAI simulator
 Traffic flow generated from SUMO simulator is visualized in MORAI Simulator via ROS communication
 
+Overall repository is based on Unbuntu 18.04.6 LTS and ROS Melodic
 
 Table of Contents
 =================
   * [SUMO Install](#SUMO-install)
-  * [Prepare Data](#Prepare-Data)
+  * [ROS Install](#ROS-install)
   * [Training](#Training)
   * [Testing](#testing)
   * [Licence](#licence)
@@ -22,7 +23,23 @@ sudo apt-get update
 sudo apt-get install sumo sumo-tools sumo-doc
 ```
 
-* note: Since the original Argoverse API is modified in this works, please you the argoverse-api included in this repository
+SUMO Version 1.10.0 is used
+
+## ROS-Install
+```sh
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt install curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+sudo apt update
+sudo apt install ros-melodic-desktop-full
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+sudo apt install python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
+sudo rosdep init
+rosdep update
+```
+
+SUMO Version 1.10.0 is used
 
 ## Prepare Data
 In this repository, small amount of the raw data and corresponding post-processed sample of Argoverse Motion Forecasting dataset is included.
