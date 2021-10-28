@@ -23,6 +23,8 @@ sudo apt-get update
 sudo apt-get install sumo sumo-tools sumo-doc
 ```
 
+for setting environment variable *SUMO_HOME=/usr/share/sumo*, refer [SUMO Environment Setting](https://sumo.dlr.de/docs/Basics/Basic_Computer_Skills.html)
+
 SUMO Version 1.10.0 is used
 
 ## ROS-Install
