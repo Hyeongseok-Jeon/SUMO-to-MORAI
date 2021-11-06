@@ -47,7 +47,7 @@ def run():
             ghost_npc_info.name ='2016_Hyundai_Ioniq'
             veh_length = 3.7
             x = vehicle.getPosition3D(VehList[i])[0]
-            y = vehicle.getPosition3D(VehList[i])[1] - 59
+            y = vehicle.getPosition3D(VehList[i])[1] - 58.790928967563
             z = vehicle.getPosition3D(VehList[i])[2]
             yaw = 90-vehicle.getAngle(VehList[i])
 
