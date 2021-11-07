@@ -14,4 +14,4 @@ sumo2morai/sumo/routes/VenturaFRW.rou.alt.xml
 sumo2morai/sumo/sumocfgs/jc_1.sumocfg
 sumo2morai/sumo/sumocfgs/KAIST_Munji_Campus.sumocfg
 sumo2morai/sumo/sumocfgs/VenturaFRW.sumocfg
-examples/data_get_LaneGCN/map_gen/mgeos/Suburb_02/*.json
+examples/data_gen_LaneGCN/map_gen/mgeos/Suburb_02/*.json
