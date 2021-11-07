@@ -1,4 +1,17 @@
 sumo2morai/build
 sumo2morai/devel
 sumo2morai/sumo/xodrs/*.xodr
+sumo2morai/sumo/nets/jc_1.net.xml
+sumo2morai/sumo/nets/KAIST_Munji_Campus.net.xml
+sumo2morai/sumo/nets/jc_1.net.xml
+sumo2morai/sumo/nets/VenturaFRW.net.xml
+sumo2morai/sumo/routes/jc_1.rou.xml
+sumo2morai/sumo/routes/jc_1.rou.alt.xml
+sumo2morai/sumo/routes/KAIST_Munji_Campus.rou.xml
+sumo2morai/sumo/routes/KAIST_Munji_Campus.rou.alt.xml
+sumo2morai/sumo/routes/VenturaFRW.rou.xml
+sumo2morai/sumo/routes/VenturaFRW.rou.alt.xml
+sumo2morai/sumo/sumocfgs/jc_1.sumocfg
+sumo2morai/sumo/sumocfgs/KAIST_Munji_Campus.sumocfg
+sumo2morai/sumo/sumocfgs/VenturaFRW.sumocfg
 
