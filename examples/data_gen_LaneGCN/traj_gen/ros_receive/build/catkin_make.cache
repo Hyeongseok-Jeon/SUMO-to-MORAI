@@ -1,2 +1,0 @@
-gen_ros
--DCATKIN_DEVEL_PREFIX=/home/jhs/Desktop/mgeo_to_lanegcn/ros_receive/devel -DCMAKE_INSTALL_PREFIX=/home/jhs/Desktop/mgeo_to_lanegcn/ros_receive/install -G Unix Makefiles
