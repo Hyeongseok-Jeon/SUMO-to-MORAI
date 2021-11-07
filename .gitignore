@@ -17,3 +17,6 @@ sumo2morai/sumo/sumocfgs/VenturaFRW.sumocfg
 examples/data_gen_LaneGCN/map_gen/mgeos/Suburb_02/*.json
 examples/data_gen_LaneGCN/traj_gen/ros_receive/build
 examples/data_gen_LaneGCN/traj_gen/ros_receive/devel
+examples/data_gen_LaneGCN/map_gen/argoverse_map/*.json
+examples/data_gen_LaneGCN/map_gen/argoverse_map/*.npy
+examples/data_gen_LaneGCN/map_gen/argoverse_map/*.xml
