@@ -1,0 +1,8 @@
+prefix=/home/jhs/Desktop/mgeo_to_lanegcn/ros_receive/devel
+
+Name: gen_ros
+Description: Description of gen_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

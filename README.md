@@ -12,8 +12,6 @@ Table of Contents
   * [SUMO simulation configuration](#SUMO-simulation-configuration)
   * [Building ROS Package](#Building-ROS-Package)
   * [Running the Simulations](#Running-the-Simulations)
-  * [Citation](#citation)
-
 
 
 ## SUMO-Install
