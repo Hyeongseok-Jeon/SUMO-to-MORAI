@@ -99,7 +99,8 @@ class data_save(threading.Thread):
         data_idx = 0
         while True:
             if gen_sig == 1:
-                data_idx = self.save(data_pool,data_idx)
+                data_now = data_pool.copy()
+                data_idx = self.save(data_now,data_idx)
 
     def save(self, data, data_idx):
         full_vehs = get_full_veh(data)
@@ -116,7 +117,7 @@ class data_save(threading.Thread):
                 cur_data = data[i]['data'].npc_list
                 for k in range(len(cur_data)):
                     timestep = i
-                    veh_id = cur_data = data[i]['data'].npc_list[k].unique_id
+                    veh_id = data[i]['data'].npc_list[k].unique_id
                     veh_pos = get_pos(data, timestep, veh_id)
                     if veh_id == AV_id:
                         veh_id = '00000000-0000-0000-0000-000000000000'
