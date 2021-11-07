@@ -1,0 +1,12 @@
+<configuration>
+
+<input>
+<net-file value="../nets/suburb_02.net.xml"/>
+<route-files value="../routes/suburb_02.rou.xml"/>
+</input>
+<time>
+<begin value="0"/>
+<end value="3600"/>
+</time>
+
+</configuration>
